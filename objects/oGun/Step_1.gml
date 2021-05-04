@@ -26,7 +26,7 @@ if ((mouse_check_button(mb_left)) || gamepad_button_check(oPlayer.controllernum,
 		firingdelay = 5;
 		with (instance_create_layer(x,y,"Bullet", oBullet))
 		{
-			speed = 5; 
+			speed = 11; 
 			direction = other.image_angle + random_range(-3,3);
 			image_angle = direction;
 			
